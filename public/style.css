@@ -1,0 +1,38 @@
+/* body{
+    margin-left: 20px;
+    background-image: url("/nature.jpg") !important;
+}.chat{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius:16px;
+    display: inline-block;
+    
+}
+
+.msg{
+    background-color: dodgerblue;
+    color:white;
+    padding: 5px 16px;
+    border-radius:16px ;
+    background-image: url("/nature.jpg") !important;
+    
+} */
+
+body {
+    margin-left: 20px;
+    background-image: url("./nature.jpg");
+    background-size: cover; /* Or use 'contain' */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.msg {
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px 16px;
+    border-radius: 16px;
+    background-image: url("./nature.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
